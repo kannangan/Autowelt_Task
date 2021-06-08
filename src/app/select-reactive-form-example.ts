@@ -10,10 +10,6 @@ interface Car {
   value: string;
   viewValue: string;
 }
-
-/**
- * @title Select in a reactive form
- */
 @Component({
   selector: 'select-reactive-form-example',
   templateUrl: 'select-reactive-form-example.html',
