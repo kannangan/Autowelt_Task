@@ -2,18 +2,27 @@
 
 body {
   font-family: Roboto, Arial, sans-serif;
-  margin: 0;
+  background-color: #fefefe;
+  margin: 5% !important; /* 8% from the top and centered */
+  padding: 20px;
+  border: 3px solid transparent;
+  height: 1px !important;
+  width: 50%
 }
 .basic-container {
-  padding: 30px;
+  padding: 38px;
 }
-.version-info {
+.top {
+  font-size: 15pt;;
+  width: 50%;
+  float:start;
+  padding-right: 100px;
+  margin: 8px;
+  color: blue ;
+}
+.copyright {
   font-size: 8pt;
   float: right;
   margin: 8px;
 }
 
-
-/**  Copyright 2020 Google LLC. All Rights Reserved.
-    Use of this source code is governed by an MIT-style license that
-    can be found in the LICENSE file at http://angular.io/license */
